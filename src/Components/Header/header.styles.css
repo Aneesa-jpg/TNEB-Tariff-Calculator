@@ -1,0 +1,10 @@
+.fixed-header{
+    width: 100%;
+    height: 15%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    top: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
