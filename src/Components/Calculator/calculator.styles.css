@@ -3,6 +3,10 @@
     margin: 10% auto 30px; /* Center the DIV horizontally */
 }
 
+h1{
+    margin-top: auto;
+}
+
 .button {
     background-color: #333;
     border: none;

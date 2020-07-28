@@ -44,7 +44,7 @@ const handleClick = () => {
 
     return (
         <div className='calculator'>
-        {showResults ? <div> <h1>Your EB Bill Amount: &#8377;{amt}</h1> <button className='button' onClick={handleClick}>Calculate again</button></div>
+        {showResults ? <div> <p>Your EB Bill Amount: &#8377;{amt}</p> <button className='button' onClick={handleClick}>Calculate again</button></div>
         : <div>
             <p>Enter the amount</p>
             <form onSubmit={handleSubmit} >
